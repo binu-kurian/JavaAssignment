@@ -1,0 +1,11 @@
+This is a Gradle(5.2.1) project with Java SDK 8 built using IntelliJ IDEA. Unit tests require JUnit 4 and Mockito.
+You can run this software using 3 different ways.
+1. Import project in an IDE and run au.com.binu.abn.amro.assignment.Main
+2. Open command line and go to the source folder and run following command ./gradlew build jar. 
+The following jar will be generated (build\libs\abn-amro-1.0-SNAPSHOT.jar).
+Run the jar using following command(java -jar abn-amro-1.0-SNAPSHOT.jar)
+3. Run the bundled jar file using command (java -jar abn-amro-1.0-SNAPSHOT.jar)
+
+Make sure Input.txt is in the correct format as mentioned in Question and in the same path as run command is executed.
+Output.csv will be generated in same directory.
+	

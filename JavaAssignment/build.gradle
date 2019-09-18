@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'au.com.binu'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'au.com.binu.abn.amro.assignment.Main'
+        )
+    }
+}
+repositories {
+    mavenCentral()
+    maven { url 'http://repo1.maven.org/maven2' }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '2.23.4'
+
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.12.1'
+}
